@@ -25,12 +25,10 @@ login = driver.find_element_by_xpath('/html/body/header/div/div/div/a[3]')
 login.click()
 
 login_id = driver.find_element_by_xpath('//*[@id="userId"]')
-login_id.send_keys('gusgkr6684@naver.com')
-# login_id.send_keys('os424@naver.com')
+login_id.send_keys('')
 
 login_pw = driver.find_element_by_xpath('//*[@id="userPwd"]')
-login_pw.send_keys('qwer1234!')
-# login_pw.send_keys('DHtjrwo3!?')
+login_pw.send_keys('')
 
 
 login_btn = driver.find_element_by_xpath('//*[@id="emailLoginBtn"]')
